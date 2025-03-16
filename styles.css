@@ -1,0 +1,585 @@
+/* Fondo del cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, hsl(212, 100%, 92%), #ffffff);
+    text-align: center;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo span {
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+/* Menú */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+	        animation: text-shadow-drop-center 0.6s both;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Botones de la barra de navegación */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #1f2937;
+    cursor: pointer;
+}
+
+.join-today {
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Sección Principal */
+.hero {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Etiqueta superior */
+.tagline {
+    display: inline-block;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+.hero {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4c96ff;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+
+    color: #1f2937;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.hero-title .line1, .hero-title .line2 {
+    display: block;
+}
+
+/* Descripción */
+.description {
+    font-size: 16px;
+    color: #5a6b85;
+    margin-top: 10px;
+}
+
+/* Botones de acción */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+/* Botón Learn More */
+.learn-more {
+    background: white;
+    border: 2px solid #ffffff;
+    color: #5a6b85;
+}
+
+.learn-more:hover {
+    background: #5a6b85;
+    color: white;
+}
+
+/* Botón Get Started */
+.get-started {
+    background: #3a7bfd;
+    color: white;
+}
+
+.get-started:hover {
+    background: #1a5ed8;
+}
+
+/* ============================= */
+/* 📌 SECCIÓN DE COMUNIDAD Y ESTADÍSTICAS */
+/* ============================= */
+
+/* Sección de Comunidad */
+.community-section {
+    text-align: center;
+    margin-top: 80px;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #ffffff, #f0f4ff);
+    border-radius: 20px;
+}
+
+/* Contenedor de avatares */
+.avatars {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.avatars img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la comunidad */
+.community-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+/* Subtítulo */
+.community-subtitle {
+    font-size: 18px;
+    color: #5a6b85;
+    margin-bottom: 20px;
+}
+
+/* Botón Explorar */
+.explore-button {
+    background: white;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background: #f3f4f6;
+    border-color: #aaa;
+}
+
+/* Sección de Estadísticas */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.stat-item p {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* Estilos para el encabezado de la sección */
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #5a6b85;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f8f9ff, #eef1ff);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* 📌 SECCIÓN DE CARACTERÍSTICAS */
+.features-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f8f9ff, #eef1ff);
+}
+
+/* 🟢 GRID en 2 columnas con 2 filas */
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* 🟡 Tarjeta de cada característica */
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+/* 🔵 Estilo de la etiqueta "Features" */
+.feature-label {
+    background: white;
+    color: #1a5ed8; /* Cambia este color al que prefieras */
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid #1a5ed8; /* Asegúrate de que coincida con el color del texto */
+    box-shadow: 0 4px 10px rgba(255, 87, 51, 0.2);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+/* 🖼️ Imágenes */
+.feature-image {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* 🟣 Primera Fila */
+.feature-chat {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.feature-video {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* 🔴 Segunda Fila */
+.feature-text {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.feature-image-below {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.section-title {
+    color: #1f2937; /* Cambia este color al que prefieras */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.section-subtitle {
+    color: #5a6b85; /* Cambia este color al que prefieras */
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.features-section h1 {
+    color: #2c3f5a; /* Color azul, cámbialo por el que quieras */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Cambiar color del subtítulo <p> */
+.features-section p {
+    color: #5a6b85; /* Color gris azulado */
+    font-size: 1.2rem;
+}
+
+/* Sección de Servicios */
+.services-section {
+    text-align: left; /* Alinea el texto a la derecha */
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin: 20px auto; /* Centra la sección en la página */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px; /* Limita el ancho para mejor legibilidad */
+}
+
+.services-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937; /* Color oscuro para el título */
+    margin-bottom: 20px;
+}
+
+.services-section p {
+    font-size: 1.2rem;
+    color: #5a6b85; /* Color gris azulado para el subtítulo */
+    line-height: 1.6;
+    max-width: 1000px; /* Limita el ancho del párrafo */
+    margin-left: auto; /* Alinea el párrafo a la derecha */
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9ff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Feature Icons */
+.feature-icon {
+    background: #e6f0ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.feature-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Headings */
+h3 {
+    font-size: 20px;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    color: #5a6b85;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px; /* Ajusta este valor según lo necesites */
+}
+
+/* Caja del logo */
+.logo-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Texto del logo */
+.logo-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Línea que se extiende a la derecha */
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #d4d4d4;
+    margin-left: 10px;
+}
+
+.wordsnap-section {
+    margin-top: 150px; /* Ajusta este valor según lo necesites */
+
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    width: 90%;
+    gap: 20px; /* Reduce la separación entre la imagen y el texto */
+    justify-content: flex-start; /* Asegura que el contenido no se expanda demasiado */
+}
+.image-container img {
+    width: 420px; /* Aumenta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción original */
+}
+
+
+.text-container {
+    max-width: 550px; /* Asegura que el texto no sea demasiado estrecho */
+    flex-grow: 1; /* Permite que el texto se expanda hacia la derecha */
+}
+.text-container h1 {
+    text-align: left; /* Alinea el texto a la derecha */
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.text-container span {
+    color: #003366; /* Azul oscuro */
+}
+
+.text-container p {
+    text-align: left; /* Alinea el texto a la derecha */
+    font-size: 1.1rem;
+    color: #5a6b85;
+    line-height: 1.6;
+}
+
+.explore-link {
+    
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.explore-link:hover {
+    
+    text-decoration: underline;
+}

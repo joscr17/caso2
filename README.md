@@ -8,5 +8,6 @@ Este repositorio contiene la tarea asignada sobre [frontend]. En este documento,
 
 ## Contenido
 
+![image](https://github.com/user-attachments/assets/68915823-d074-4dcd-a278-f7071126214d)
 
 
